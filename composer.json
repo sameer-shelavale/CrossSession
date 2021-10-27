@@ -1,0 +1,23 @@
+{
+    "name": "sameer-shelavale/crosssession",
+    "description": "This package is developed for easing up session handling in different frameworks. It is useful for packages which are meant to be used on multiple frameworks.",
+    "minimum-stability": "stable",
+    "license": "AGPL3.0",
+    "authors": [
+        {
+            "name": "Sameer Shelavale",
+            "email": "samiirds@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "CrossSession\\" : "src/"
+        },
+        "psr-4": {
+            "CrossSession\\" : "src/"
+        }
+    }
+}
